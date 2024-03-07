@@ -12,7 +12,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = register_user(username, password)
 
         self.assertTrue(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_duplicate_username_registration(self):
         # Test case for attempting to register with a duplicate username
@@ -24,7 +23,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = register_user(existing_username, "new_password")
 
         self.assertFalse(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_weak_password_registration(self):
         # Test case for attempting to register with a weak password
@@ -34,7 +32,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = register_user(username, weak_password)
 
         self.assertFalse(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_valid_username(self):
         # Test case for checking the validity of a username
@@ -43,7 +40,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = is_valid_username(valid_username)
 
         self.assertTrue(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_invalid_username(self):
         # Test case for checking the validity of an invalid username
@@ -52,7 +48,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = is_valid_username(invalid_username)
 
         self.assertFalse(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_valid_password(self):
         # Test case for checking the validity of a password
@@ -61,7 +56,6 @@ class RegistrationTestCase(unittest.TestCase):
         result = is_valid_password(valid_password)
 
         self.assertTrue(result)
-        # You can add additional assertions based on the expected behavior of your web app
 
     def test_invalid_password(self):
         # Test case for checking the validity of an invalid password
@@ -70,4 +64,3 @@ class RegistrationTestCase(unittest.TestCase):
         result = is_valid_password(invalid_password)
 
         self.assertFalse(result)
-        # You can add additional assertions based on the expected behavior of your web app
