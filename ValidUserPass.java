@@ -78,6 +78,11 @@ public class RegistrationTest {
         assertFalse(result);
     }
 
+
+    // SQL injection attack 
+    // watch sanitization of strings 
+    // watch data you are taking in 
+    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
     // Methods that need to be implemented 
     
