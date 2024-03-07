@@ -12,11 +12,10 @@ public class RegistrationTest {
         boolean result = registerUser(username, password);
 
         assertTrue(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
-    @Test
-    public void testDuplicateUsernameRegistration() {
+    @Test 
+    public void testDuplicateUsernameRegistration() { 
         // Test case for attempting to register with a duplicate username
         String existingUsername = "existing_user";
         String existingPassword = "existing_password";
@@ -26,7 +25,6 @@ public class RegistrationTest {
         boolean result = registerUser(existingUsername, "new_password");
 
         assertFalse(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
     @Test
@@ -37,8 +35,7 @@ public class RegistrationTest {
 
         boolean result = registerUser(username, weakPassword);
 
-        assertFalse(result);
-        // You can add additional assertions based on the expected behavior of your web app
+        assertFalse(result); // makes it false if same username is re-entered 
     }
 
     @Test
@@ -46,10 +43,9 @@ public class RegistrationTest {
         // Test case for checking the validity of a username
         String validUsername = "test_user";
 
-        boolean result = isValidUsername(validUsername);
+        boolean result = isValidUsername(validUsername); // checks to see if the username is valid
 
         assertTrue(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
     @Test
@@ -57,10 +53,9 @@ public class RegistrationTest {
         // Test case for checking the validity of an invalid username
         String invalidUsername = "user@name";  // Invalid due to special character
 
-        boolean result = isValidUsername(invalidUsername);
+        boolean result = isValidUsername(invalidUsername); 
 
         assertFalse(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
     @Test
@@ -68,10 +63,9 @@ public class RegistrationTest {
         // Test case for checking the validity of a password
         String validPassword = "StrongPass123";
 
-        boolean result = isValidPassword(validPassword);
+        boolean result = isValidPassword(validPassword); // check if it is a valid password
 
         assertTrue(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
     @Test
@@ -82,10 +76,11 @@ public class RegistrationTest {
         boolean result = isValidPassword(invalidPassword);
 
         assertFalse(result);
-        // You can add additional assertions based on the expected behavior of your web app
     }
 
-    // Mock implementation of registration and validation functions
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+    // Methods that need to be implemented 
+    
     private boolean registerUser(String username, String password) {
         // Implement registration logic here
         // Return true if registration is successful, false otherwise
