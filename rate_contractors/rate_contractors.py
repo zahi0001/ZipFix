@@ -1,4 +1,4 @@
-
+import PySimpleGUI as sg
 # This calculates the average rating of a contractor
 # The file format is such
 # username | rating | # of 1 star | # of 2 star | # of 3 start | # of 4 start | # of 5 star | total ratings
