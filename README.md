@@ -71,8 +71,13 @@ The project is managed using Git and hosted on GitHub. Here are some of the acti
 
 main: Main development branch.
 
+
 AndrewD-SkillSet-TestCase: Branch for implementing skill set test cases.
+
 joseph: Branch for Joseph's contributions.
+
 SahilTamboli10-ValidUserPass-TestCase: Branch for implementing test cases related to valid user passwords.
+
 Mounir: Branch for Mounir's contributions.
+
 Myka: Branch for Myka's contributions.
