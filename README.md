@@ -6,12 +6,18 @@ This web application is designed to connect individuals or businesses with worke
 Features
 Worker Profiles: Workers can create profiles showcasing their skills, experience, and availability.
 Job Posting: Hirers can post jobs specifying the task, location, and desired qualifications.
+
 Matching Algorithm: The app matches hirers with suitable workers based on their requirements and availability.
+
 Booking and Scheduling: Once a match is made, hirers can book workers and schedule appointments directly through the app.
+
 Rating and Reviews: Both hirers and workers can rate and review each other based on their experience, ensuring accountability and trust within the community.
+
 Technologies Used
+
 Frontend: HTML, CSS, JavaScript, React.js
-Backend: Node.js, Express.js, MongoDB
+
+Backend: Node.js
 Authentication: JSON Web Tokens (JWT)
 Version Control: Git, GitHub
 Getting Started
