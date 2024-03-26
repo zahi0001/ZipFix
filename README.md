@@ -62,21 +62,10 @@ npm start
 ```
 
 ## Branches
-The project is managed using Git and hosted on GitHub. Here are some of the active branches:
+The project is managed using Git and hosted on GitHub.
+
+release: Release/stable development branch. Only pushed to when main is feature-complete; assumed to be stable.
 
 main: Main development branch.
 
-AndrewD-SkillSet-TestCase: Branch for implementing skill set test cases.
-
-This branch implements unit tests for the SkillSet and Professional classes. It ensures the functionality of adding and removing skills, with error detection for invalid inputs. The tests cover scenarios for both valid and invalid skill operations, providing a quick verification of the code's functionality. Further enhancements and additional tests could be added as needed.
-
-joseph: Branch for Joseph's contributions.
-
-This branch contains unit tests for user verification logic. Tests cover successful verification, handling non-existent emails, and incorrect verification codes. Using Python's unittest framework and mocking, it ensures reliable testing of identity verification processes. Further enhancements and tests can be added for edge cases and improved robustness.
-
-SahilTamboli10-ValidUserPass-TestCase: Branch for implementing test cases related to valid user passwords.
-This branch features unit tests for user registration functionality, covering successful registration, duplicate username prevention, and validation of usernames/passwords. Tests validate registration with valid credentials, rejection of duplicates, and detection of weak passwords. Utilizing Python's unittest framework, these tests ensure the robustness of the web app's registration process. Further enhancements and tests can bolster its reliability.
-
-Mounir: Branch for Mounir's contributions.
-
-Myka: Branch for Myka's contributions.
+Other branches are made and managed for individual features, to be pushed to main when ready, and for main to be pushed to release when assumed stable/feature-complete enough for a new release.
