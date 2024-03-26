@@ -77,7 +77,10 @@ This branch implements unit tests for the SkillSet and Professional classes. It 
 
 
 
-joseph: Branch for Joseph's contributions.
+joseph: 
+This branch contains unit tests for user verification logic. Tests cover successful verification, handling non-existent emails, and incorrect verification codes. Using Python's unittest framework and mocking, it ensures reliable testing of identity verification processes. Further enhancements and tests can be added for edge cases and improved robustness.
+
+
 
 SahilTamboli10-ValidUserPass-TestCase: Branch for implementing test cases related to valid user passwords.
 
