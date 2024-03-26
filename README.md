@@ -1,6 +1,6 @@
 # ZipFix
 
-Overview
+**Overview**
 This web application is designed to connect individuals or businesses with workers available for hire. Much like Uber connects riders with drivers, this platform connects hirers with workers. Whether you need someone to mow your lawn, fix your plumbing, or help with a project, this app facilitates the process.
 
 Features
