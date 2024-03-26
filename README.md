@@ -72,7 +72,10 @@ The project is managed using Git and hosted on GitHub. Here are some of the acti
 main: Main development branch.
 
 
-AndrewD-SkillSet-TestCase: Branch for implementing skill set test cases.
+AndrewD-SkillSet-TestCase: 
+This branch implements unit tests for the SkillSet and Professional classes. It ensures the functionality of adding and removing skills, with error detection for invalid inputs. The tests cover scenarios for both valid and invalid skill operations, providing a quick verification of the code's functionality. Further enhancements and additional tests could be added as needed.
+
+
 
 joseph: Branch for Joseph's contributions.
 
