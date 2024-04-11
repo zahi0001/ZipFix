@@ -25,6 +25,8 @@ Version Control: Git, GitHub
 
 ## Getting Started
 
+Everything below this line is inaccurate but we'll rewrite this later once we're more settled in on making Android Studio work.
+
 To get a local copy of the project up and running, follow these steps:
 
 Clone the repository to your local machine:
