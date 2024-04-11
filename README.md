@@ -15,11 +15,9 @@ Rating and Reviews: Both hirers and workers can rate and review each other based
 
 ## Technologies Used
 
-Frontend: HTML, CSS, JavaScript, React.js
+Frontend: Kotlin, XML through Android Studio
 
-Backend: Node.js
-
-Authentication: JSON Web Tokens (JWT)
+Backend: Kotlin, Parse Platform (through Back4App)
 
 Version Control: Git, GitHub
 
@@ -32,36 +30,16 @@ To get a local copy of the project up and running, follow these steps:
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/worker-hire-app.git
+git clone https://github.com/zahi0001/ZipFix.git
 ```
 
 Navigate to the project directory:
 
 ```
-cd worker-hire-app
+cd ZipFix
 ```
 
-## Install dependencies:
-
-```
-npm install
-```
-
-Set up environment variables:
-
-Create a .env file in the root directory.
-
-Add the following environment variables:
-
-```
-makefile
-```
-
-## Run the application:
-
-```
-npm start
-```
+Open through Android Studio.
 
 ## Branches
 The project is managed using Git and hosted on GitHub.
