@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZipFix</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">5JVCrYz6r2K31ZvgDff6KyBiZEOyks8daLE6Qc7Y</string>
+    <string name="back4app_client_key">EEhe6jaHEBZxcvPlI2FN04R9JufwUtDYHBTlaVZR</string>
+</resources>
