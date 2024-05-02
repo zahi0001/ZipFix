@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable square_thicl
+drawable zip_fix
+id button
+id editTextText
+id imageView5
+id imageView6
+id main
+id menu_text
+layout activity_main
+layout list_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string feedback
+string select
+string submit
+style Base.Theme.MyApplication
+style Theme.MyApplication
+xml backup_rules
+xml data_extraction_rules

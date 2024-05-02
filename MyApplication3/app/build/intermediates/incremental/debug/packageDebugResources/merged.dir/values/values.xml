@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#00522A</color>
+    <color name="white">#00522A</color>
+    <string name="app_name">My Application</string>
+    <string name="feedback">Enter Feedback</string>
+    <string name="select">Select Rating</string>
+    <string name="submit">Submit Rating</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#20502e</item> 
+        <item name="colorPrimaryDark">#20502e</item>
+        <item name="colorAccent">#FFC107</item>
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>
