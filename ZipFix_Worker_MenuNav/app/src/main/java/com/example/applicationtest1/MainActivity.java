@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.applicationtest1.databinding.ActivityMainBinding;
 // Utilizes App Bar configuration and bascially creates the stage incorporating variety of other parts of the program
+// References a variety of UI components
+// Uses navigation view and drawer
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
