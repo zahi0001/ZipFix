@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@android:drawable/dialog_frame"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/editprofile"
+            android:icon="@android:drawable/dialog_frame"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/findJobs"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="@string/find_jobs" />
+        <item
+            android:id="@+id/bookmarkedJobs"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="@string/bookmarked_jobs" />
+        <item
+            android:id="@+id/reviewsRatings"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Reviews &amp; Ratings" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Settings" />
+    </group>
+</menu>

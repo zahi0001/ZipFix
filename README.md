@@ -1,20 +1,51 @@
 # ZipFix
 
-## Branch JosephR:
+## Overview
+This web application is designed to connect individuals or businesses with workers available for hire. Much like Uber connects riders with drivers, this platform connects hirers with workers. Whether you need someone to mow your lawn, fix your plumbing, or help with a project, this app facilitates the process.
 
-This branch includes two sections the worker profile and the code for the rating system.
+## Features
+Worker Profiles: Workers can create profiles showcasing their skills, experience, and availability.
+Job Posting: Hirers can post jobs specifying the task, location, and desired qualifications.
 
-## Worker Profile
+Matching Algorithm: The app matches hirers with suitable workers based on their requirements and availability.
 
-The worker profile will display the current profile picture and give the worker option to change the picture.
-Addtionally, it will display the current user name and the current rating and the total number of ratings.
-The option to change the username will likely be here as well.
+Booking and Scheduling: Once a match is made, hirers can book workers and schedule appointments directly through the app.
 
-Addtional things:
-If posssible the worker profile will include tags on its roles to help improve searching.
+Rating and Reviews: Both hirers and workers can rate and review each other based on their experience, ensuring accountability and trust within the community.
 
-## Rate System
+## Technologies Used
 
-Includes the code for the rate system which will be used for both workers and users.
-In it's current form it will need to be adopted to work based off touch and not text box.
-The rate system currently haspython and java implmentations.
+Frontend: Kotlin, XML through Android Studio
+
+Backend: Kotlin, Parse Platform (through Back4App)
+
+Version Control: Git, GitHub
+
+## Getting Started
+
+Everything below this line is inaccurate but we'll rewrite this later once we're more settled in on making Android Studio work.
+
+To get a local copy of the project up and running, follow these steps:
+
+Clone the repository to your local machine:
+
+```
+git clone https://github.com/zahi0001/ZipFix.git
+```
+
+Navigate to the project directory:
+
+```
+cd ZipFix
+```
+
+Open through Android Studio.
+
+## Branches
+The project is managed using Git and hosted on GitHub.
+
+release: Release/stable development branch. Only pushed to when main is feature-complete; assumed to be stable.
+
+main: Main development branch.
+
+Other branches are made and managed for individual features, to be pushed to main when ready, and for main to be pushed to release when assumed stable/feature-complete enough for a new release.
