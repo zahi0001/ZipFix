@@ -1,0 +1,21 @@
+Index: ../README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ZipFix\r\n\r\n## Branch JosephR:\r\n\r\nThis branch includes two sections the worker profile and the code for the rating system.\r\n\r\n## Worker Profile\r\n\r\nThe worker profile will display the current profile picture and give the worker option to change the picture.\r\nAddtionally, it will display the current user name and the current rating and the total number of ratings.\r\nThe option to change the username will likely be here as well.\r\n\r\nAddtional things:\r\nIf posssible the worker profile will include tags on its roles to help improve searching.\r\n\r\n## Rate System\r\n\r\nIncludes the code for the rate system which will be used for both workers and users.\r\nIn it's current form it will need to be adopted to work based off touch and not text box.\r\nThe rate system currently haspython and java implmentations.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../README.md b/../README.md
+--- a/../README.md	(revision 4abd9d851776ecf419cc7218e75dd27a0505fa2f)
++++ b/../README.md	(date 1713911434263)
+@@ -17,4 +17,7 @@
+ 
+ Includes the code for the rate system which will be used for both workers and users.
+ In it's current form it will need to be adopted to work based off touch and not text box.
+-The rate system currently haspython and java implmentations.
+\ No newline at end of file
++The rate system currently haspython and java implmentations.
++
++## TODO
++- Implment photo picking using PickVisualMedia
+\ No newline at end of file
